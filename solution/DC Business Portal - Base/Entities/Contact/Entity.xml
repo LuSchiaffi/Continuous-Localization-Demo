@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Entity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Name LocalizedName="Contact" OriginalName="">Contact</Name>
+  <EntityInfo>
+    <entity Name="Contact">
+      <LocalizedNames>
+        <LocalizedName description="Contact" languagecode="1033" />
+      </LocalizedNames>
+      <LocalizedCollectionNames>
+        <LocalizedCollectionName description="Contacts" languagecode="1033" />
+      </LocalizedCollectionNames>
+      <Descriptions>
+        <Description description="Person with whom a business unit has a relationship, such as customer, supplier, and colleague." languagecode="1033" />
+      </Descriptions>
+      <attributes>
+        <options>
+          <option value="0" Color="#0000ff">
+            <labels>
+              <label description="No" languagecode="1033" />
+              <label description="아니요" languagecode="1042" />
+              <label description="አይ" languagecode="3076" />
+              <label description="No" languagecode="3082" />
+            </labels>
+          </option>
+          <option value="1" Color="#0000ff">
+            <labels>
+              <label description="Yes" languagecode="1033" />
+              <label description="예" languagecode="1042" />
+              <label description="አዎ" languagecode="3076" />
+              <label description="Sí" languagecode="3082" />
+            </labels>
+          </option>
+        </options>
+      </attribute>        
+    </entity>
+  </EntityInfo>
+  <FormXml />
+  <SavedQueries />
+  <RibbonDiffXml />
+</Entity>
